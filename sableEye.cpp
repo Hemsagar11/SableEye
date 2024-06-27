@@ -7,6 +7,7 @@
 using namespace std;
 
 string prev_window(256, '\0');
+
 string curr_window(256, '\0');
 int capsFlag = 0;
 int shift = 0;
