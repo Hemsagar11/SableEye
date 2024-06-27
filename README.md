@@ -1,6 +1,6 @@
 # SableEye
 ## Project Description!
-![SableEye Logo](./assets/SableEye-logo.png)
+<center><img src="./assets/SableEye-logo.png"></center>
 
 **SableEye** is a lightweight keylogger tool designed for the *Windows* opertating system. The tool demonstrates how keystrokes can be captured and recorded by a key logger.
 
