@@ -1,6 +1,6 @@
 # SableEye
 ## Project Description!
-<center><img src="./assets/SableEye-logo.png"></center>
+![SableEye Logo](./assets/SableEye-logo.png)
 
 **SableEye** is a lightweight keylogger tool designed for the *Windows* opertating system. The tool demonstrates how keystrokes can be captured and recorded by a key logger.
 
@@ -28,42 +28,30 @@
 ## Code Overview:
 1. #### FreeConsole() function
 
-- Description: Detaches the program from the console window, making it run without a visible console.
-- Purpose: Ensures the keylogger operates silently in the background without displaying a console window.
+- Detaches the program from the console window, making it run without a visible console.
 2. #### GetAsyncKeyState(int vKey)
 
-- Description: Retrieves the state of a specified virtual key.The function returns -32767 if the key is currently pressed, and 0 if its not.
-- Purpose: Monitors keyboard input to capture keystrokes in real-time.
+- Retrieves the state of a specified virtual key.The function returns -32767 if the key is currently pressed, and 0 if its not.
+
 3. #### GetForegroundWindow()
-- Description: Retrieves a handle to the foreground window.
-- Purpose: Identifies the currently active window to log window titles or monitor user activity.
+- Retrieves a handle to the foreground window. Identifies the currently active window to log window titles or monitor user activity.
 4. #### GetWindowTextA(HWND hWnd, LPSTR lpString, int nMaxCount)
 
-- Description: Retrieves the text of the specified window's title bar (if any).
-- Purpose: Allows monitoring of the active window's title to track user interactions or focus changes.
+- Retrieves the text of the specified window's title bar (if any).
 5. #### SetFileAttributesA(const char* lpFileName, DWORD dwFileAttributes)
 
-- Description: Sets the attributes of a file or directory.
-- Purpose: Sets the log file attribute to hidden (FILE_ATTRIBUTE_HIDDEN), making it less visible to users.
+- Sets the attributes of a file or directory. It is used to set hidden attribute to the log file making it less visible.
 
 ## Protection Against Keyloggers
 
 Keyloggers can pose a significant threat to privacy and security. Here are some recommended measures to protect against keyloggers:
 
-1. #### Use Antivirus and Anti-Malware Software
-- Install reputable antivirus and anti-malware software and keep it updated.
-Regularly scan your system for potential threats, including keyloggers.
-2. #### Enable Firewall Protection
-- Enable and configure a firewall to monitor incoming and outgoing traffic.
-Firewall settings can help detect and block unauthorized attempts to send captured data.
-3. #### Update Operating Systems and Applications
-- Keep your operating system (OS) and applications up to date with the latest security patches.
-Updates often include security enhancements that protect against known vulnerabilities exploited by keyloggers.
-4. #### Use Virtual Keyboards
-- When entering sensitive information like passwords, consider using an on-screen or virtual keyboard.
-Virtual keyboards can help bypass hardware and software-based keyloggers that capture physical keystrokes.
-5. #### Utilize Anti-Keylogger Software
-- Install and use anti-keylogger software designed to detect and prevent keylogger activities.
+1. Use Virtual Keyboards
+2. Utilize Anti-Keylogger Software
+3. Update Operating Systems and Applications
+4. Use Updated Antivirus and Anti-Malware Software 
+5. Enable Firewall Protection
+
 
 ## Disclaimer
 **Important Notice:**
