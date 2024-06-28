@@ -1,5 +1,5 @@
 # SableEye
-## Project Description!
+## Project Description
 ![SableEye Logo](./assets/SableEye-logo.png)
 
 **SableEye** is a lightweight keylogger tool designed for the *Windows* opertating system. The tool demonstrates how keystrokes can be captured and recorded by a key logger.
@@ -19,13 +19,13 @@
 - To open up the log file while the program is still running use: ```CTLR + SHIFT + G```
 - To quit or close the keylogger use: ```CTLR + SHIFT + Q```
 
-## Features!
+## Features
 - Runs as a background process
 - Captures all keystrokes
 - Logs data to a file
 - Uses minimal system resources
 
-## Code Overview:
+## Code Overview
 1. #### FreeConsole() function
 
 - Detaches the program from the console window, making it run without a visible console.
