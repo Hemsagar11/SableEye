@@ -1,6 +1,9 @@
 # SableEye
+<p align="center">
+  <img src="./assets/SableEye-logo.png" alt="SableEye Logo">
+</p>
+
 ## Project Description
-![SableEye Logo](./assets/SableEye-logo.png)
 
 **SableEye** is a lightweight keylogger tool designed for the *Windows* opertating system. The tool demonstrates how keystrokes can be captured and recorded by a key logger.
 
@@ -49,11 +52,12 @@
 
 Keyloggers can pose a significant threat to privacy and security. Here are some recommended measures to protect against keyloggers:
 
-1. Use Virtual Keyboards
-2. Utilize Anti-Keylogger Software
-3. Update Operating Systems and Applications
-4. Use Updated Antivirus and Anti-Malware Software 
-5. Enable Firewall Protection
+
+1. **Use Virtual Keyboards**: They can prevent hardware keyloggers from capturing keystrokes.
+2. **Utilize Anti-Keylogger Software**: Specialized software can detect and neutralize keyloggers.
+3. **Update Operating Systems and Applications**: Regular updates can patch vulnerabilities.
+4. **Use Updated Antivirus and Anti-Malware Software**: These can detect and remove keyloggers.
+5. **Enable Firewall Protection**: Firewalls can prevent unauthorized access to your system.
 
 
 ## Disclaimer
