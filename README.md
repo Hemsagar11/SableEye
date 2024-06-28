@@ -42,6 +42,9 @@
 
 - Sets the attributes of a file or directory. It is used to set hidden attribute to the log file making it less visible.
 
+6. #### VK_KEYS
+- These are symbolic constant names, hexadecimal values, and mouse or keyboard equivalents used by the system. [Resource](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
+
 ## Protection Against Keyloggers
 
 Keyloggers can pose a significant threat to privacy and security. Here are some recommended measures to protect against keyloggers:
